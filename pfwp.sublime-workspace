@@ -1,0 +1,335 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"ip",
+				"important"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"in",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "style.less",
+			"settings":
+			{
+				"buffer_size": 15180,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "single-works.php",
+			"settings":
+			{
+				"buffer_size": 1216,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 3499,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 180.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/twentyeleven/header.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/index.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/header.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/footer.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/twentyeleven/footer.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/js/plugins.js",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/js/main.js",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/functions.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/.htaccess",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/twentyeleven/functions.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/single.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/home.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/page-travaux.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/taxonomy.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/taxonomy-annees.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/taxonomy-techniques.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/category-blog.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/page-blog.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/sidebar.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/page-a-propos.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/twentyeleven/category.php",
+		"/opt/lampp/htdocs/web2012/portfolio/blog.html",
+		"/opt/lampp/htdocs/web2012/portfolio/contact.html",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/page-contact.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/style.css",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/style.less",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/inwebitruzt/header.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/inwebitruzt/page-a-propos.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/page.php",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/apropos.html",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/css/style.less",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/twentyeleven/style.css",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/css/style.css",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/index.html",
+		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/css/main.css",
+		"/usr/share/applications/sublime.desktop",
+		"/usr/share/applications/defaults.list",
+		"/tmp/fz3temp-1/wp-config.php",
+		"/tmp/fz3temp-1/wp-config 2.php",
+		"/tmp/fz3temp-1/.htaccess"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"field",
+			";\n",
+			"excerpt",
+			",\n",
+			"gedit.desktop"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sublime.desktop"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "style.less",
+					"settings":
+					{
+						"buffer_size": 15180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4032,
+								4032
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3562.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "single-works.php",
+					"settings":
+					{
+						"buffer_size": 1216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								816,
+								816
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 85.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 3499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								519,
+								519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true
+}
