@@ -24,5 +24,4 @@ Template Name: Projets
             <?php endif; ?>
         </ul>
     </div>
-<?php dynamic_sidebar('primary'); ?>
 <?php get_footer(); ?>

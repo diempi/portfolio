@@ -21,6 +21,6 @@
                 <?php endwhile; ?>
             <?php endif; ?>
         </ul>
+        <?php dynamic_sidebar('primary'); ?>
     </div>
-<?php dynamic_sidebar('primary'); ?>
 <?php get_footer(); ?>

@@ -19,6 +19,6 @@ Template Name: Blog
                 </article>
             <?php endwhile; ?>
         <?php endif; ?>
+    <?php dynamic_sidebar('primary'); ?>
     </div>
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>       

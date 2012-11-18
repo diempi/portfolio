@@ -11,8 +11,8 @@
         <meta name="viewport" content="width=device-width">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-
-        <script src="http://static.diempi.be/modernizr.min.js" type="text/javascript"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+        <!--script src="http://static.diempi.be/modernizr.min.js" type="text/javascript"></script-->
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -22,7 +22,7 @@
         <div class="header-container">
             <header class="wrapper clearfix">
                 <h1 class="title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" ><?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?> <span><?php bloginfo( 'description' ); ?></span></a></h1>
-				<?php wp_nav_menu( array('menu' => 'mon-menu' )); ?>
+				<?php wp_nav_menu(array('container' => 'ul', 'menu_id'=>'nav')); ?>
             </header>
         </div>
 

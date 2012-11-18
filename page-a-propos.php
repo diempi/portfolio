@@ -17,5 +17,4 @@ Template Name: A propos
                     </section>
                 </article>
         </div>
-<?php dynamic_sidebar('primary'); ?>
 <?php get_footer(); ?>

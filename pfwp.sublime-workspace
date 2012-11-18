@@ -4,44 +4,124 @@
 		"selected_items":
 		[
 			[
-				"padd",
-				"padding-left"
+				"border",
+				"border-bottom"
+			],
+			[
+				"pa",
+				"padding"
 			],
 			[
 				"margin",
-				"margin-top"
+				"margin-right"
 			],
 			[
-				"font",
-				"font-size"
+				"padding",
+				"padding-left"
 			],
 			[
-				"co",
-				"color"
+				"for",
+				"form_submit"
 			],
 			[
-				"bac",
-				"background-color"
+				"ge",
+				"generateMap"
 			],
 			[
-				"margin-",
-				"margin-left"
+				"la",
+				"lati"
 			],
 			[
-				"ip",
-				"important"
+				"big",
+				"bigImg"
 			],
 			[
-				"tex",
-				"text-transform"
+				"Im",
+				"ImgSrcBig"
 			],
 			[
-				"font-",
-				"font-weight"
+				"I",
+				"ImgSrc"
 			],
 			[
-				"in",
-				"inline-block"
+				"po",
+				"posCoord"
+			],
+			[
+				"his",
+				"historyHasChanged"
+			],
+			[
+				"a",
+				"active"
+			],
+			[
+				"lik",
+				"link"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"ti",
+				"titre"
+			],
+			[
+				"Descri",
+				"description"
+			],
+			[
+				"data",
+				"dataout"
+			],
+			[
+				"site",
+				"sitetitle"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"vi",
+				"view"
+			],
+			[
+				"pic",
+				"picture"
+			],
+			[
+				"re",
+				"res"
+			],
+			[
+				"curl",
+				"curl_exec"
+			],
+			[
+				"preg",
+				"preg_match"
+			],
+			[
+				"lie",
+				"liensModele"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"r",
+				"res"
+			],
+			[
+				"pos",
+				"post"
+			],
+			[
+				"lien",
+				"lien_actuel"
 			]
 		]
 	},
@@ -51,23 +131,55 @@
 			"file": "style.less",
 			"settings":
 			{
-				"buffer_size": 15180,
+				"buffer_size": 15550,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "single-works.php",
+			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 1216,
+				"buffer_size": 862,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "functions.php",
+			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 3499,
+				"buffer_size": 1936,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page-travaux.php",
+			"settings":
+			{
+				"buffer_size": 1104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "category-blog.php",
+			"settings":
+			{
+				"buffer_size": 848,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page-blog.php",
+			"settings":
+			{
+				"buffer_size": 831,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page-a-propos.php",
+			"settings":
+			{
+				"buffer_size": 611,
 				"line_ending": "Unix"
 			}
 		}
@@ -75,7 +187,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 180.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -85,9 +197,17 @@
 			[
 				"ins",
 				"Package Control: Install Package"
+			],
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 575.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -104,50 +224,82 @@
 	},
 	"file_history":
 	[
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/twentyeleven/header.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/index.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/header.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/footer.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/twentyeleven/footer.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/js/plugins.js",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/js/main.js",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/functions.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/.htaccess",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/twentyeleven/functions.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/single.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/home.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/page-travaux.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/taxonomy.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/taxonomy-annees.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/taxonomy-techniques.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/category-blog.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/page-blog.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/sidebar.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/page-a-propos.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/twentyeleven/category.php",
-		"/opt/lampp/htdocs/web2012/portfolio/blog.html",
-		"/opt/lampp/htdocs/web2012/portfolio/contact.html",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/page-contact.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/style.css",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/style.less",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/inwebitruzt/header.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/inwebitruzt/page-a-propos.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/page.php",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/apropos.html",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/css/style.less",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/twentyeleven/style.css",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/css/style.css",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/index.html",
-		"/opt/lampp/htdocs/web2012/wp/portfolio/wp-content/themes/portfolio/css/main.css",
-		"/usr/share/applications/sublime.desktop",
-		"/usr/share/applications/defaults.list",
+		"/opt/lampp/htdocs/portfolio/wp-content/themes/portfoliov2/page-contact.php",
+		"/opt/lampp/htdocs/portfolio/wp-content/themes/portfoliov2/home.php",
+		"/tmp/fz3temp-1/.htaccess",
+		"/opt/lampp/htdocs/portfolio/wp-content/themes/portfoliov2/footer.php",
+		"/opt/lampp/htdocs/portfolio/wp-content/themes/portfoliov2/header.php",
+		"/opt/lampp/htdocs/portfolio/wp-content/themes/portfoliov2/functions.php",
+		"/opt/lampp/htdocs/portfolio/.htaccess",
+		"/opt/lampp/htdocs/portfolio/wp-content/themes/portfoliov2/style.css",
+		"/opt/lampp/htdocs/portfolio/wp-config.php",
 		"/tmp/fz3temp-1/wp-config.php",
-		"/tmp/fz3temp-1/wp-config 2.php",
-		"/tmp/fz3temp-1/.htaccess"
+		"/opt/lampp/htdocs/dpl/cours/.htaccess",
+		"/opt/lampp/htdocs/dpl/1/sites/default/settings.php",
+		"/opt/lampp/etc/httpd.conf",
+		"/opt/lampp/htdocs/dpl/1/.htaccess",
+		"/opt/lampp/etc/php.ini",
+		"/opt/lampp/bin/apachectl",
+		"/opt/lampp/htdocs/dpl/cours/sites/default/settings.php",
+		"/opt/lampp/htdocs/linkser/application/views/confirm.php",
+		"/opt/lampp/htdocs/linkser/application/views/listeLiens.php",
+		"/opt/lampp/htdocs/linkser/application/views/signin.php",
+		"/opt/lampp/htdocs/linkser/application/models/liensmodele.php",
+		"/opt/lampp/htdocs/linkser/application/controllers/site.php",
+		"/opt/lampp/htdocs/linkser/application/controllers/main.php",
+		"/home/diempi/Téléchargements/Cours 5 - Géoloc & Google Maps/js/script.js",
+		"/opt/lampp/htdocs/ria/test/index.html",
+		"/opt/lampp/htdocs/ria/test/js/script.js",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/historique/js/script.js",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/test/index.html",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/test/js/script.js",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/exercice/script.js",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/historique/index.html",
+		"/opt/lampp/htdocs/ria/geoloc/index.html",
+		"/opt/lampp/htdocs/ria/geoloc/geoloc",
+		"/opt/lampp/htdocs/ria/geoloc/js/script.js",
+		"/home/diempi/Téléchargements/Cours 5 - Géoloc & Google Maps/index.html",
+		"/home/diempi/Bureau/geoloc/index.html",
+		"/home/diempi/Bureau/web/liensModele.php",
+		"/opt/lampp/htdocs/linkser/application/views/vueUpdate.php",
+		"/home/diempi/Bureau/web/listeLiens.php",
+		"/home/diempi/Bureau/web/site.php",
+		"/opt/lampp/htdocs/linkser/application/models/members.php",
+		"/opt/lampp/htdocs/linkser/script.js",
+		"/home/diempi/Bureau/web/vueUpdate.php",
+		"/tmp/fz3temp-2/site.php",
+		"/opt/lampp/htdocs/linkser/application/config/autoload.php",
+		"/tmp/fz3temp-1/langue.php",
+		"/home/diempi/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/opt/lampp/htdocs/linkser/application/controllers/dom.php",
+		"/opt/lampp/htdocs/linkser/README",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/flatland/js/script.js",
+		"/opt/lampp/htdocs/cours/Dropbox/ria/flatland/index.html",
+		"/opt/lampp/htdocs/linkser/application/config/config.php",
+		"/opt/lampp/htdocs/linkser/application/libraries/js/script.js",
+		"/home/diempi/.cache/.fr-viDIIL/curl/c.php",
+		"/opt/lampp/htdocs/linkser/loadlink.php",
+		"/opt/lampp/htdocs/linkser/.htaccess",
+		"/opt/lampp/htdocs/linkser/index.php",
+		"/opt/lampp/htdocs/linkser/application/views/layout.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/models/liensmodele.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/config/routes.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/config/config.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/config/database.php",
+		"/opt/lampp/htdocs/linkser/application/config/constants.php",
+		"/opt/lampp/htdocs/linkser/application/config/routes.php",
+		"/opt/lampp/htdocs/linkser/application/config/database.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/models/members.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/controllers/loadlink.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/controllers/site.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/controllers/split_url.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/config/autoload.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/controllers/simple_html_dom.php",
+		"/opt/lampp/htdocs/cours/Dropbox/web/linkser/application/config/hooks.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -161,11 +313,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"field",
-			";\n",
-			"excerpt",
-			",\n",
-			"gedit.desktop"
+			".work",
+			"500",
+			"#7c7c7c",
+			"#0040B7",
+			"100%",
+			"#000",
+			"#545454",
+			"545454",
+			"radius",
+			"whois",
+			"border-bottom",
+			".work",
+			"#545454",
+			"false",
+			"inwebitrust",
+			"nav_menu",
+			"rewr",
+			"uri",
+			"host",
+			"';",
+			");\n",
+			"foo",
+			"DOMd",
+			"get_meta"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -173,7 +344,7 @@
 		"regex": false,
 		"replace_history":
 		[
-			"sublime.desktop"
+			"portfolio"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -184,7 +355,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -192,15 +363,15 @@
 					"file": "style.less",
 					"settings":
 					{
-						"buffer_size": 15180,
+						"buffer_size": 15550,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4032,
-								4032
+								8047,
+								8047
 							]
 						],
 						"settings":
@@ -210,25 +381,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3562.0,
+						"translation.y": 7464.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "single-works.php",
+					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 1216,
+						"buffer_size": 862,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								816,
-								816
+								803,
+								803
 							]
 						],
 						"settings":
@@ -237,7 +408,7 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 85.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -245,18 +416,130 @@
 				},
 				{
 					"buffer": 2,
-					"file": "functions.php",
+					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 3499,
+						"buffer_size": 1936,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								519,
-								519
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "page-travaux.php",
+					"settings":
+					{
+						"buffer_size": 1104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "category-blog.php",
+					"settings":
+					{
+						"buffer_size": 848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								807,
+								807
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "page-blog.php",
+					"settings":
+					{
+						"buffer_size": 831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "page-a-propos.php",
+					"settings":
+					{
+						"buffer_size": 611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								588,
+								588
 							]
 						],
 						"settings":
@@ -320,16 +603,16 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"selected_items":
 		[
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 211.0,
+	"side_bar_width": 250.0,
 	"status_bar_visible": true
 }

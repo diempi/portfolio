@@ -1,6 +1,6 @@
 <?php
-add_action('widgets_init','inwebitrust_sidebars');
-add_action('after_setup_theme','inwebitrust_setup');
+add_action('widgets_init','portfolio_sidebars');
+add_action('after_setup_theme','portfolio_setup');
 add_action('init','create_post_type');
 add_action('init','add_taxonomies');
 add_action('init','add_year');
@@ -37,21 +37,21 @@ if(! function_exists('add_year'))
     }
 }
 
-if(! function_exists('inwebitrust_setup'))
+if(! function_exists('portfolio_setup'))
 {
-    function inwebitrust_setup()
+    function portfolio_setup()
     {
         add_theme_support('post-thumbnails');
         add_theme_support('automatic-feed-links');
         add_theme_support('post-formats',array('aside','gallery','link','image'));
         set_post_thumbnail_size( 450, 144,true );
         add_image_size('folio-work',640,480);
-        register_nav_menu('mon-menu',__('Menu'),'inwebitrust');
+        register_nav_menu('mon-menu',__('Menu'),'portfolio');
     }
 }
-if(! function_exists('inwebitrust_sidebars'))
+if(! function_exists('portfolio_sidebars'))
 {
-    function inwebitrust_sidebars()
+    function portfolio_sidebars()
     {
             register_sidebar(
                      
