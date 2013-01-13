@@ -1,3 +1,15 @@
+/*
+Theme Name: Portfolio DIEMPI V3 Ok
+Theme URI: 
+Author: DIEMPI
+Author URI: http://wwww.diempi.be
+Description: Wordpress Theme  Portfolio
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text Domain: Portfolio
+*/
 html,button,input,select,textarea{color:#222;}
 body{font-size:1em;line-height:1.4;}
 ::-moz-selection{background:#b3d4fc;text-shadow:none;}
