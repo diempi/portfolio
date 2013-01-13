@@ -14,6 +14,10 @@
                     </article>
                 <?php endwhile; ?>
             <?php endif; ?>
+            <!-- Commentaires -->
+            <div id="comments">
+                <?php comments_template(); ?>
+            </div>              
     </div>
 <?php dynamic_sidebar('primary'); ?>
 <?php get_footer(); ?>

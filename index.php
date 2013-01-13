@@ -1,3 +1,4 @@
+<!-- error_reporting(0); -->
 <?php get_header(); ?>
         <?php if(have_posts()): ?>
             <?php while(have_posts()): the_post();?>
@@ -7,7 +8,7 @@
                         the_post_thumbnail();
                     } ?>
                     <h3></h3> <?php _e('Poste le '); ?><?php echo get_the_date(); ?>
-                     <?php the_terms($post->ID,'techniques','Cree avec ',' - ',''); ?>
+                     <?php the_terms($post->ID,'techniques','Crée avec ',' - ',''); ?>
                     <div class="content">
                         <?php the_content(); ?>
                     </div>
@@ -16,4 +17,5 @@
             <?php endwhile; ?>
         <?php endif; ?>
 <?php dynamic_sidebar('primary'); ?>
+<div class="push"></div>
 <?php get_footer(); ?>

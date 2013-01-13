@@ -4,7 +4,7 @@ Template Name: Projets
 */
 ?>
 <?php get_header(); ?>
-    <div class="container">
+    <div id="work-container">
         <ul class="work">
             <?php 
                 $arg = array('post_type' => 'works');
@@ -16,12 +16,13 @@ Template Name: Projets
                                     <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" itemprop="url">
                                         <?php the_post_thumbnail(); ?>
                                         <h2 class="title"><?php the_title(); ?></h2>
-                                        <p itemprop="description"><?php the_terms($post->ID,'annees','Annees: ',' - ',' '); ?></p>
-                                        <p><?php the_terms($post->ID,'techniques','Cree avec ',' - ',' '); ?></p>
+                                        <p itemprop="description"><?php the_terms($post->ID,'annees','Années: ',' - ',' '); ?></p>
+                                        <p><?php the_terms($post->ID,'techniques','Crée avec ',' - ',' '); ?></p>
                                     </a>
                                 </li>
                 <?php endwhile; ?>
             <?php endif; ?>
         </ul>
     </div>
+    <div class="push"></div>
 <?php get_footer(); ?>

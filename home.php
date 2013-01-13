@@ -2,7 +2,7 @@
     <div id="slideshow">
         
     </div>
-    <div class="container">
+    <div id="home-container">
         <ul class="work">
             <?php 
                 $arg = array('post_type' => 'works');
@@ -14,13 +14,13 @@
                                     <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" itemprop="url">
                                         <?php the_post_thumbnail(); ?>
                                         <h2 class="title"><?php the_title(); ?></h2>
-                                        <p itemprop="description"><?php the_terms($post->ID,'annees','Annees: ',' - ',' '); ?></p>
-                                        <p><?php the_terms($post->ID,'techniques','cree avec ',' - ',' '); ?></p>
-                                    </a>
+                                        <p itemprop="description"><?php the_terms($post->ID,'annees','Année: ',' - ',' '); ?></p>
+                                        <p><?php the_terms($post->ID,'techniques','Crée avec ',' - ',' '); ?></p>
+                                    </a>    
                                 </li>
                 <?php endwhile; ?>
             <?php endif; ?>
         </ul>
-        <?php dynamic_sidebar('primary'); ?>
     </div>
+<div class="push"></div>    
 <?php get_footer(); ?>

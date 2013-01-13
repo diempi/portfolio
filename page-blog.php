@@ -4,6 +4,7 @@ Template Name: Blog
 */
 ?>
 <?php get_header(); ?>
+<?php dynamic_sidebar('primary'); ?>   
     <div class="container">
         <?php if(have_posts()): ?>
             <?php while(have_posts()): the_post();?>
@@ -20,5 +21,5 @@ Template Name: Blog
             <?php endwhile; ?>
         <?php endif; ?>
     </div>
-<?php get_sidebar(); ?>
+    <div class="push"></div>
 <?php get_footer(); ?>       

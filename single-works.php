@@ -12,11 +12,11 @@
                             $url = $url_container['URL du site'];
                         ; ?>
                             <a href="<?php echo $url[0] ; ?>"  title="<?php the_title(); ?>" target="_new">Visitez le site</a>
-                        <p><?php the_terms($post->ID,'techniques','Cree avec ',' - ',''); ?></p>
-                         <p><?php the_terms($post->ID,'annees','Annees: ',' - ',' '); ?></p>                        
+                        <p><?php the_terms($post->ID,'techniques','Crée avec ',' - ',''); ?></p>
+                         <p><?php the_terms($post->ID,'annees','Années: ',' - ',' '); ?></p>                        
                     </article>
                 <?php endwhile; ?>
             <?php endif; ?>
     </div>
-<?php dynamic_sidebar('primary'); ?>
+<?php dynamic_sidebar('projects'); ?>
 <?php get_footer(); ?>

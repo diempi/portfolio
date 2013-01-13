@@ -13,4 +13,5 @@
         <hr>
     <?php endwhile; ?>
     <?php endif; ?>
+    <div class="push"></div>
 <?php get_footer(); ?>

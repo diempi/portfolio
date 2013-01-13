@@ -4,7 +4,7 @@ Template Name: A propos
 */
 ?>
 <?php get_header(); ?>
-        <div class="container">
+        <div class="about-container">
                 <article id="didz">
                     <section>
                         <p class="legende">
@@ -17,4 +17,5 @@ Template Name: A propos
                     </section>
                 </article>
         </div>
+        <div class="push"></div>
 <?php get_footer(); ?>
