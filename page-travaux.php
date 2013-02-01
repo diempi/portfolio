@@ -5,7 +5,7 @@ Template Name: Projets
 ?>
 <?php get_header(); ?>
     <div id="work-container">
-        <ul class="work" itemscope itemtype="http://schema.org/Blog">
+        <ul class="work" itemscope itemtype="http://schema.org/blogPost">
             <?php 
                 $arg = array('post_type' => 'works');
                 $loop = new WP_Query($arg);

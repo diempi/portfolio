@@ -1,5 +1,5 @@
 /*
-Theme Name: Portfolio DIEMPI V3 master
+Theme Name: Portfolio Didier GABIAM
 Theme URI: 
 Author: DIEMPI
 Author URI: http://wwww.diempi.be
@@ -16,9 +16,8 @@ body{font-size:1em;line-height:1.4;}
 img{vertical-align:middle;}
 body{font:16px/26px Helvetica,Helvetica Neue,Arial;}
 .wrapper{width:90%;margin:0 5%;}
-.header-container{border-bottom:20px solid #e44d26;}
-.footer-container,.main aside{border-top:20px solid #e44d26;}
-.header-container,.footer-container,.main aside{background:#ffffff;}
+.header-container,.footer-container{background:#474747;}
+.header-container a, .header-container span, .footer-container a{color:#fff;}
 .title{color:white;}
 nav a:hover,nav a:visited{color:white;}
 nav a:hover{text-decoration:underline;}
@@ -35,10 +34,11 @@ a{color:#0040b7;text-decoration:none;}
  a:visited{color:#0040b7;}
 img,iframe,embed{max-width:100%;}
 p{text-align:justify;}
+html, body{height: 100%;}
 #comments, #commentform{width:100%;}
 .main-container{min-height:100%;height:auto !important;height:100%;margin:0 auto -1em;}
 #contact{display:inline;float:left;width:14.583333333333334%;margin:0 1.0416666666666665%;}
-.contact-infos{display:none;}
+.contact-infos{display:block;}
 .contact-me{display:inline;float:left;width:64.58333333333334%;margin:0 1.0416666666666665%;text-align:justify;line-height:1.2;margin-left:0;}
 .title{font-size:100%;color:#000;}
 .menu-item{display:inline-block;width:17%;font-weight:normal;padding:0.5em 0 0.5em 0.5em;}
@@ -49,11 +49,11 @@ p{text-align:justify;}
 .header-container .title a{color:#545454;font-size:180%;}
 .header-container .title a span{display:block;font-size:40%;text-indent:0.156em;color:#7c7c7c;}
 #nav{width:60%;float:right;height:4em;text-transform:uppercase;text-align:center;margin:0;padding:0;}
-.widget{width:31.25%;margin:0;float:right;padding:0 0.5em;}
+.widget{width:30%;margin:0;float:right;padding:0 0.5em;}
 .widget h3{font-size:1.6em;margin:0;}
 .widget ul{padding:0;}
 .widget ul li{margin-bottom:0.6em;line-height:1.3em;}
-#didz{display:inline;float:left;width:64.58333333333334%;margin:0 1.0416666666666665%;margin-left:0;}
+#didz{display:inline;float:left;width:64.58333333333334%;margin:0;margin-left:0;}
 #didz section{margin:0 auto;text-align:justify;}
 .post{text-align:justify;margin-bottom:1.5em;border-bottom:1px solid #aaa;}
 .post h1{line-height:1em;}
@@ -68,14 +68,33 @@ p{text-align:justify;}
 #message textarea{height:8em;}
 .container{display:inline;float:left;width:64.58333333333334%;margin:0 1.0416666666666665%;margin:0;}
 .container article h2{color:#0040b7;margin-top:0;}
-form{display:inline;float:left;width:31.25%;margin:0 1.0416666666666665%;margin:0 auto;}
+form{display:inline;float:left;width:30%;margin:0 1.0416666666666665%;margin:0 auto;}
 form input, form textarea{width:100%;margin:0;font-family:inherit;font-size:105%;}
 .work{display:inline;float:left;width:97.91666666666666%;margin:0 1.0416666666666665%;margin:0 auto;padding-left:0;}
-.work li{display:inline;float:left;width:31.25%;margin:0 1.0416666666666665%;height:auto;margin-top:3em;display:inline-block;margin-left:0;margin-right:2.085%;}
+.work li{display:inline;float:left;width:30%;margin:0 1.0416666666666665%;height:auto;margin-top:3em;display:inline-block;margin-left:0;margin-right:3%;}
 .work li img{width:100%;height:auto;}
-.work li p{margin:0;font-size:90%;color:#595959;}
-.footer-container{height:1em;border-top:none;padding-bottom:0;text-align:right;}
-.footer-container .wrapper{padding-bottom:inherit;}
-.footer-container .wrapper p{color:#000;font-size:80%;margin-bottom:0;}
+.work li p{margin: 1em 0.5em 0;font-size:90%;color:#595959;}
+footer{    position: relative;
+    margin-top: -140px; 
+    height: 140px;
+    clear:both;}
 .push{height:1em;}
 .whois{line-height:1.4;}
+#social{width:35%;float:right;border:none;}
+#social li{display:inline-block;width:30%;}
+#social a{display:block;width:2.8em;height:2.8em;text-indent:-99999px;background-image: url('http://www.diempi.be/portfolio/wp-content/themes/portfoliov3/img/spritedg.png');}
+#twitter:hover{background-position: 0 100%;}
+#gplus{background-position:57.3% 0;}
+#gplus:hover{background-position:57.3% 100%;}
+#lkn{background-position:71.5% 0;}
+#lkn:hover{background-position:71.5% 100%;}
+/* CLEAR FIX*/
+.clearfix:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac */
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
