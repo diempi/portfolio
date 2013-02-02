@@ -36,23 +36,23 @@ html,body{height:100%;}
 #comments,#commentform{width:94%;}
 #wrapper{width:960px;margin:1.5em auto;min-height:100%;}
 #home-main,.fullpage{width:100%;}
-#main{width:62%;float:left;}
-#sidebar{width:36%;float:right;}
-#main,#home-main,#sidebar,.fullpage{overflow:auto;padding-bottom:80px;}
+#main{width:62%;float:left;padding:1em 0.5em !important;}
+#sidebar{width:34%;float:right;padding:1em 0.5em !important;}
+#main,#home-main,#sidebar,.fullpage{overflow:auto;padding:1em 0.1em; background-color:#ddd;}
 .whois{line-height:1.4;}
 #social{width:33%;float:right;border:none;margin:1em 0;}
 #social h1{text-align:center;}
-#social li{display:inline-block;width:30%;}
+#social li{display:inline-block;width:26%;}
 #social a{display:block;width:2.8em;height:2.8em;text-indent:-99999px;background-image:url('http://www.diempi.be/portfolio/wp-content/themes/portfoliov3/img/spritedg.png');}
 #twitter:hover{background-position:0 100%;}
-#gplus{background-position:57.3% 0;}
-#gplus:hover{background-position:57.3% 100%;}
+#gplus{background-position:57.2% 0;}
+#gplus:hover{background-position:57.2% 100%;}
 #lkn{background-position:71.5% 0;}
 #lkn:hover{background-position:71.5% 100%;}
 .main-container{min-height:100%;height:auto !important;height:100%;margin:0 auto -1em;}
 #contact{display:inline;float:left;width:14.583333333333334%;margin:0 1.0416666666666665%;}
 .contact-infos{display:block;}
-.contact-me{display:inline;margin:0 1.0416666666666665%;text-align:justify;font-size:2em;line-height:1.2;margin-left:0;}
+.contact-me{margin:0;padding:0 0.5em;text-align:justify;font-size:2em;line-height:1.3;}
 .title{font-size:100%;color:#000;}
 .menu-item{display:inline-block;width:17%;font-weight:normal;padding:0.5em 0 0.5em 0.5em;}
 .menu-item a{display:block;width:100%;height:auto;padding:0.5em 0;font-weight:normal;color:#fff;}
@@ -63,7 +63,7 @@ footer{border-top:none;height:4em;box-shadow:0 -5px 10px rgba(0, 0, 0, 0.3);-moz
 .header-container .title a{color:#fff;font-size:180%;}
 .header-container .title a span{display:block;font-size:40%;text-indent:0.156em;color:#fff;}
 #nav{width:60%;float:right;height:4em;text-transform:uppercase;text-align:center;margin:0;padding:0;}
-.widget{margin:0;float:right;padding:0 0.5em;}
+.widget{padding:0;}
 .widget h3{font-size:1.6em;margin:0;}
 .widget ul{padding:0;}
 .widget ul li{margin-bottom:0.6em;line-height:1.3em;}
@@ -82,12 +82,52 @@ footer{border-top:none;height:4em;box-shadow:0 -5px 10px rgba(0, 0, 0, 0.3);-moz
 #message textarea{height:8em;}
 .container{display:inline;float:left;width:64.58333333333334%;margin:0 1.0416666666666665%;margin:0;}
 .container article h2{color:#0040b7;margin-top:0;}
-form{margin:1.5em auto;}
-form input,form textarea{width:100%;margin:0;font-family:inherit;font-size:105%;}
+form{width:90%;margin:1.5em auto;font-size:1.3em;}
+form input,form textarea{width:100%;padding:0.1em;margin:0;font-family:inherit;font-size:105%;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;border-radius:10px;}
+#form input,#form fieldset{margin-bottom: 1em;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;border-radius:10px;}
 .work{display:inline;float:left;margin:0 1.0416666666666665%;margin:0 auto;padding-left:0;}
-.work li{display:inline;float:left;width:30%;margin:0 1.0416666666666665%;height:auto;margin-top:3em;display:inline-block;margin-left:0;margin-right:3%;border:1px solid #bbb;box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);-webkit-box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);}
-.work li:hover{background-color:#fff;box-shadow:0 -5px 10px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 -5px 10px rgba(0, 0, 0, 0.3);-webkit-box-shadow:0 -5px 10px rgba(0, 0, 0, 0.3);}
+.work li{background-color:#fff;display:inline;float:left;width:30%;margin:2em 0.938em 1em;height:auto;display:inline-block;border:1px solid #bbb;box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);-webkit-box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);}
+.work li:hover{box-shadow:0 -5px 10px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 -5px 10px rgba(0, 0, 0, 0.3);-webkit-box-shadow:0 -5px 10px rgba(0, 0, 0, 0.3);}
 .work li img{width:100%;height:auto;}
 .work li p{font-size:90%;color:#595959;padding:0 0.5em;margin:0.5em 0;}
 .work li h2{padding:0 0.5em;margin-top: 1em;}
-footer{position:relative;margin-top:-80px;height:80px;clear:both;}
+footer{margin-top:2em;clear:both;}
+
+/*==============MEDIA QUERIES===================*/
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+	#wrapper, .wrapper, footer{
+		width: 100%;
+	}
+
+ }
+
+ /* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	#wrapper, .wrapper, footer{
+		width: 100%;
+	}
+	#sidebar{
+		width: 30%;
+	}
+ }
+
+
+ /* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+	#wrapper, .wrapper, footer{
+		width: 100%;
+	}
+	#sidebar{
+		width: 30%;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+	header,.header-container,nav, #wrapper, footer{
+		width: 94%;
+		margin: 1em auto;
+	}
+ }
