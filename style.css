@@ -13,7 +13,7 @@ Text Domain: Portfolio
 html,button,input,select,textarea{color:#222;}
 ::selection{background:#b3d4fc;text-shadow:none;}
 img{vertical-align:middle;}
-body{font:16px/26px Helvetica,Helvetica Neue,Arial;line-height:1.4;}
+body{font:16px/26px Helvetica,Helvetica Neue,Arial;line-height:1.4;background-color:#eaeaea;}
 .wrapper{width:960px;margin:0 auto;}
 header,footer{width:100%;background:#474747;}
 .header-container a,.header-container span,.footer-container a,.footer-container a:visited{color:#fff !important;}
@@ -82,10 +82,12 @@ footer{border-top:none;height:4em;box-shadow:0 -5px 10px rgba(0, 0, 0, 0.3);-moz
 #message textarea{height:8em;}
 .container{display:inline;float:left;width:64.58333333333334%;margin:0 1.0416666666666665%;margin:0;}
 .container article h2{color:#0040b7;margin-top:0;}
-form{margin:0 1.0416666666666665%;margin:0 auto;}
+form{margin:1.5em auto;}
 form input,form textarea{width:100%;margin:0;font-family:inherit;font-size:105%;}
 .work{display:inline;float:left;margin:0 1.0416666666666665%;margin:0 auto;padding-left:0;}
-.work li{display:inline;float:left;width:30%;margin:0 1.0416666666666665%;height:auto;margin-top:3em;display:inline-block;margin-left:0;margin-right:3%;}
+.work li{display:inline;float:left;width:30%;margin:0 1.0416666666666665%;height:auto;margin-top:3em;display:inline-block;margin-left:0;margin-right:3%;border:1px solid #bbb;box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);-webkit-box-shadow:0 5px 10px rgba(0, 0, 0, 0.3);}
+.work li:hover{background-color:#fff;box-shadow:0 -5px 10px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 -5px 10px rgba(0, 0, 0, 0.3);-webkit-box-shadow:0 -5px 10px rgba(0, 0, 0, 0.3);}
 .work li img{width:100%;height:auto;}
-.work li p{margin:1em 0.5em 0;font-size:90%;color:#595959;}
+.work li p{font-size:90%;color:#595959;padding:0 0.5em;margin:0.5em 0;}
+.work li h2{padding:0 0.5em;margin-top:1em;}
 footer{position:relative;margin-top:-80px;height:80px;clear:both;}
