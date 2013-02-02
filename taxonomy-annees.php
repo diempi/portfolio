@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <div class="container">
+    <div id="main" class="container">
         <article <?php post_class(); ?>>
             <?php if(have_posts()): ?>
                 <?php while(have_posts()): the_post();?>
@@ -13,6 +13,7 @@
         </article>
         
     </div>
-<?php dynamic_sidebar('projects'); ?>
-<div class="push"></div>
+    <div id="sidebar">
+        <?php dynamic_sidebar('projects'); ?>
+    </div>
 <?php get_footer(); ?>

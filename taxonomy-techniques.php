@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<div id="main"></div>
     <h2> Projets cree avec : </h2>
     <div class="container">
         <article <?php post_class(); ?>>
@@ -14,6 +15,9 @@
         </article>
         
     </div>    
-<?php dynamic_sidebar('projects'); ?>
-<div class="push"></div>
+</div>
+<div id="sidebar">
+    <?php dynamic_sidebar('projects'); ?>
+</div>
+
 <?php get_footer(); ?>

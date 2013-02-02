@@ -1,8 +1,5 @@
 <?php get_header(); ?>
-    <div id="slideshow">
-        
-    </div>
-    <div id="home-container">
+    <div id="home-main">
         <ul class="work">
             <?php 
                 $arg = array('post_type' => 'works');
@@ -21,6 +18,5 @@
                 <?php endwhile; ?>
             <?php endif; ?>
         </ul>
-    </div>
-<div class="push"></div>    
+    </div>  
 <?php get_footer(); ?>

@@ -4,6 +4,7 @@ Template Name: Contact
 */
 ?>
 <?php get_header(); ?>
+    <div class="fullpage">
 				<?php if(have_posts()): ?>
                     <?php while(have_posts()): the_post();?>
                         <?php the_content(); ?>
@@ -20,6 +21,6 @@ Template Name: Contact
                 <p id="status">
                     
                 </p>
-                <div class="push"></div>
+    </div>
 
 <?php get_footer(); ?>

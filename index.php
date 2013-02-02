@@ -1,5 +1,6 @@
 <!-- error_reporting(0); -->
 <?php get_header(); ?>
+    <div id="main">
         <?php if(have_posts()): ?>
             <?php while(have_posts()): the_post();?>
                 <article <?php post_class(); ?> itemscope itemtype="http://schema.org/Blog">
@@ -16,6 +17,8 @@
                 </article>
             <?php endwhile; ?>
         <?php endif; ?>
-<?php dynamic_sidebar('primary'); ?>
-<div class="push"></div>
+    </div>
+    <div id="sidebar">
+        <?php dynamic_sidebar('primary'); ?>
+    </div>
 <?php get_footer(); ?>
