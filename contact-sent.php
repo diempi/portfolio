@@ -16,7 +16,7 @@
 
 	// Envoi de l'email
 	//if(mail('didier@diempi.be','venant de '.$nom.' de l\'email '.$email,$message))
-	if(imap_mail('didier@diempi.be',' Message venant de '.$nom.': '.$email,$message)){
+	if(imap_mail('mail@you',' Message venant de '.$nom.': '.$email,$message)){
 		$message_status = 'Merci de votre message';
 		echo 'ok';
 	}
